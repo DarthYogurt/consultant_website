@@ -9,7 +9,6 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
-    <link href="css/bootslider.css" rel="stylesheet" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,13 +54,27 @@
         </div> <!-- container -->
         
 		<div class="container-fluid" id="past_work">
-        	<div class="row-fluid">
+        	<div class="row">
                 <h1>Past Work</h1>
-                <img src="images/past_work/pile1_thumb.png">
-                <img src="images/past_work/pile2_thumb.png">
-                <img src="images/past_work/pile3_thumb.png">
-                <hr class="fancy-line" />
-            </div>
+                <div id="carousel-past-work" class="carousel slide" data-ride="carousel" data-interval="4000">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active"><img src="images/past_work/collage_pile_thumb.png" /></div>                    
+						<div class="item"><img src="images/past_work/collage_medusa_thumb.png" /></div> 
+                        <div class="item"><img src="images/past_work/collage_medusa_site_thumb.png" /></div> 
+                        <div class="item"><img src="images/past_work/collage_medusa_site2_thumb.png" /></div> 
+                    </div>
+    
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-past-work" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-past-work" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+			</div>        
+        	<hr class="fancy-line" />
         </div> <!-- container -->
 
 		<div class="container-fluid" id="technologies_skills">
@@ -98,6 +111,5 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/bootslider.js"></script>
 </body>
 </html>
