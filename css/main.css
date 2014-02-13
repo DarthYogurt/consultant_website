@@ -5,13 +5,14 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 50px;
+	overflow-x: hidden;
 }	
 
 #main {
 	background: #ffffff;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	padding: 30px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding: 50px;
 }
 
 .rounded_corners {
