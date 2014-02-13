@@ -7,9 +7,9 @@
     <title>Google Glass and Android App Consulting</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/swipebox.css" rel="stylesheet" >
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/bootslider.css" rel="stylesheet" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,7 +19,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" >
 	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
@@ -55,14 +55,13 @@
         </div> <!-- container -->
         
 		<div class="container-fluid" id="past_work">
-            <div class="row-fluid">
+        	<div class="row-fluid">
                 <h1>Past Work</h1>
-                <a href="images/past_work/pile1.png" class="swipebox" title="caption"><img src="images/past_work/pile1_thumb.png" alt="image"></a>
-                <a href="images/past_work/pile2.png" class="swipebox" title="caption"><img src="images/past_work/pile2_thumb.png" alt="image"></a>
-                <a href="images/past_work/pile3.png" class="swipebox" title="caption"><img src="images/past_work/pile3_thumb.png" alt="image"></a>
-                
+                <img src="images/past_work/pile1_thumb.png">
+                <img src="images/past_work/pile2_thumb.png">
+                <img src="images/past_work/pile3_thumb.png">
+                <hr class="fancy-line" />
             </div>
-            <hr class="fancy-line" />
         </div> <!-- container -->
 
 		<div class="container-fluid" id="technologies_skills">
@@ -99,6 +98,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/jquery.swipebox.js"></script>
+    <script src="js/bootslider.js"></script>
 </body>
 </html>

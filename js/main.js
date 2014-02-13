@@ -7,9 +7,6 @@ $('a').click(function() {
     return false;
 });
 
-// Initialize swipebox
-jQuery(function($) {
-	$(".swipebox").swipebox({ 
-		
-	});
-});
+// Bootstrap scrollspy
+$('body').scrollspy({ target:'.navbar', offset: 50 });
+	
