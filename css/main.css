@@ -11,7 +11,7 @@ body {
 #main {
 	background: #ffffff;
 	margin-top: 60px;
-	margin-bottom: 60px;
+	margin-bottom: 200px;
 	padding: 50px;
 }
 
@@ -43,4 +43,8 @@ hr.fancy-line:before, hr.fancy-line:after {
 
 hr.fancy-line, hr.fancy-line:before {
     background: radial-gradient(ellipse at center, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
+}
+
+.extra-pad-bot {
+	padding-bottom:20px;
 }
