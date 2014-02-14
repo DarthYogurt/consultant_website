@@ -6,6 +6,7 @@ body {
 	background-size: cover;
 	padding-top: 50px;
 	overflow-x: hidden;
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
 }	
 
 #main {
@@ -47,4 +48,16 @@ hr.fancy-line, hr.fancy-line:before {
 
 .extra-pad-bot {
 	padding-bottom:20px;
+}
+
+h3 {
+	font-family: 'Droid Serif', Georgia, Times, serif;
+    font-size: 33px;
+    line-height: 40px;
+}
+
+p {
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
 }
