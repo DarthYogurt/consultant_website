@@ -64,7 +64,10 @@ p {
 @media only screen 
 and (max-device-width : 1080px) {
 /* Styles */
-img[data-src-mobile] { content: attr(data-src-mobile, url); }
+/* img[data-src-mobile] { content: attr(data-src-mobile, url); }*/
+img {
+	width: 100px;
+	height: 100px;
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 

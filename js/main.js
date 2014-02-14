@@ -18,3 +18,4 @@ $('a[data-slide="prev"]').click(function() {
 $('a[data-slide="next"]').click(function() {
   $('#carousel-past-work').carousel('next');
 });
+
