@@ -1,60 +1,21 @@
 body { 
-	background: url('../images/server_bg.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	padding-top: 50px;
 	overflow-x: hidden;
 	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
 }	
 
-#main {
-	background: #ffffff;
-	margin-top: 60px;
-	margin-bottom: 200px;
-	padding: 50px;
-}
-
-#technologies-skills img {
-	margin-bottom: 10px;
-}
-
-.rounded_corners {
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-}
-
-hr.fancy-line { 
-    border: 0; 
-    height: 1px;
-}
-hr.fancy-line:before {
-    top: -0.5em;
-    height: 1em;
-}
-hr.fancy-line:after {
-    content:'';
-    height: 0.5em;
-    top: 1px;
-}
-
-hr.fancy-line:before, hr.fancy-line:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-}
-
-hr.fancy-line, hr.fancy-line:before {
-    background: radial-gradient(ellipse at center, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 75%);
-}
-
-.extra-pad-bot {
-	padding-bottom:20px;
-}
-
-h3 {
-    font-size: 33px;
+.header {
+	font-family: 'Droid Serif', Georgia, Times, serif;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             	 0px 8px 13px rgba(0,0,0,0.1),
+             	 0px 18px 23px rgba(0,0,0,0.1);
+	margin-top: 30px;
+	margin-bottom: 40px;
+	color: #fff;
+	font-size: 33px;
     line-height: 40px;
 }
 
@@ -62,6 +23,41 @@ p {
     font-size: 14px;
     line-height: 25px;
 }
+
+#home {
+	background: url('../images/golden_gate_bg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 500px;
+	padding: 0 50px
+}
+
+#past-work {
+	background: #FFE361;
+	padding: 10px 50px 120px 50px;
+}
+
+#technologies-skills {
+	background: #D2D2D3;
+	padding: 10px 50px 120px 50px;
+}
+
+#technologies-skills img {
+	margin-bottom: 10px;
+}
+
+#philosophy {
+	background: #FFE361;
+	padding: 10px 50px 80px 50px;
+}
+
+#contact {
+	background: #D2D2D3;
+	padding: 10px 50px 180px 50px;
+}
+
 
 /* MOBILE PHONE PORTRAIT */
 @media only screen 
