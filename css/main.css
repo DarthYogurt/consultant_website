@@ -16,6 +16,10 @@ body {
 	padding: 50px;
 }
 
+#technologies-skills img {
+	margin-bottom: 10px;
+}
+
 .rounded_corners {
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
@@ -24,7 +28,6 @@ body {
 hr.fancy-line { 
     border: 0; 
     height: 1px;
-
 }
 hr.fancy-line:before {
     top: -0.5em;
@@ -68,7 +71,6 @@ and (max-device-width : 1080px) {
 #technologies-skills img {
 	width: 100px;
 	height: 100px;
-	margin-bottom: 10px;
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
