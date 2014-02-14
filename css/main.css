@@ -60,12 +60,19 @@ p {
     line-height: 25px;
 }
 
+#mobile {
+	display: none;
+}
+
 /* MOBILE PHONE PORTRAIT */
 @media only screen 
 and (max-device-width : 1080px) {
 /* Styles */
 /* img[data-src-mobile] { content: attr(data-src-mobile, url); }*/
-img {
+#mobile {
+	display: inline;
+}
+#mobile img {
 	width: 100px;
 	height: 100px;
 }
