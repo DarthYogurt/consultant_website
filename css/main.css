@@ -4,14 +4,24 @@ body {
 	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
 }	
 
+#home {
+	background: url('../images/office_bg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 600px;
+	margin-bottom: -50px;
+}
+
 #title {
-	background: rgba(220, 220, 220, 0.5);
-	margin-top: 200px;
+	background: rgba(220, 220, 220, 0.4);
 	padding: 30px;
 }
 
 #title h3 {
 	color: #fff;
+	font-weight: bold;
 }
 
 .header {
@@ -30,15 +40,7 @@ p {
     line-height: 25px;
 }
 
-#home {
-	background: url('../images/office_bg.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 550px;
-	padding: 0 50px
-}
+
 
 #past-work {
 	background: #fff;
@@ -46,7 +48,9 @@ p {
 }
 
 #technologies-skills {
-	background: #ececea;
+	background: rgba(220, 220, 220, 0.4);
+	padding-top: 120px;
+	padding-bottom: 120px;
 }
 
 #technologies-skills img {
@@ -59,17 +63,30 @@ p {
 }
 
 #contact {
-	background: #ececea;
+	background: rgba(220, 220, 220, 0.4);
 	padding: 10px 50px 180px 50px;
 }
 
+
+
+
+.carousel-control {
+text-shadow: none;
+opacity: 1;
+filter: alpha(opacity=100)
+}
 .carousel-control.left {
- 	filter:progid:DXImageTransform.Microsoft.gradient(enabled='false')
+filter:progid:DXImageTransform.Microsoft.gradient(enabled='false');
+}
+.carousel-control.right {
+filter:progid:DXImageTransform.Microsoft.gradient(enabled='false');
 }
 
-.carousel-control.right {
- 	filter:progid:DXImageTransform.Microsoft.gradient(enabled='false')
-}
+
+
+
+
+
 
 /* MOBILE PHONE PORTRAIT */
 @media only screen 
