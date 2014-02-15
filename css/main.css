@@ -16,7 +16,7 @@ body {
 
 #title {
 	background: rgba(220, 220, 220, 0.4);
-	padding: 30px;
+	padding: 40px;
 }
 
 #title h3 {
@@ -44,7 +44,12 @@ p {
 
 #past-work {
 	background: #fff;
-	padding: 10px 50px 120px 50px;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+#past-work img {
+	margin-bottom: 20px;
 }
 
 #technologies-skills {
